@@ -58,4 +58,13 @@ Nearly all of it sits in private repositories, which is why this page exists as 
 
 ---
 
+### Writing
+
+I keep a bilingual technical blog at [bikrant666.com.np](https://bikrant666.com.np) —
+English and 日本語, roughly 45 posts in each. They are practical how-to guides pulled
+straight out of the work above: provisioning a VM from nothing, wiring TLS and DNS,
+and keeping a Flask app and a Postgres instance alive together on a 1 GB box.
+
+---
+
 Reach me through the contact form on [bikrant666.com.np](https://bikrant666.com.np).
