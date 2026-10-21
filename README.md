@@ -50,8 +50,11 @@ checks after every deploy · Telegram/chat control planes for long-running bots
 
 ### Numbers
 
-Roughly 650 commits and 300k+ lines added across 12 repositories in the last four months —
-mostly in Python and TypeScript. Private repos, so GitHub's graph on this page stays quiet.
+582 contributions in 2026 — 479 commits, 90 pull requests and 13 repositories created —
+against roughly 327,000 lines added and 16,000 deleted. Mostly Python and TypeScript,
+across 55 active days at about 10 commits a day.
+
+Nearly all of it sits in private repositories, which is why this page exists as the index.
 
 ---
 
