@@ -11,10 +11,10 @@ Most of my work lives in private repositories, so this page is the index.
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [bikrant666.com.np](https://bikrant666.com.np) | Personal site + bilingual (EN/JA) technical blog, with an admin surface and a staging environment | Flask, Postgres, nginx |
-| [dropchat](https://chat.bikrant666.com.np) | Embeddable live-chat widget — drop one script tag into any site. Accounts, AI-assisted replies, transcript search | Python, Postgres, WebSocket |
-| [futsal-platform](https://futsal.bikrant666.com.np) | Booking and scheduling for a futsal venue | Flask, Postgres |
-| vpn-dashboard | Admin dashboard for a self-hosted WireGuard network — peer provisioning, user sync, DNS-level ad filtering | Flask, WireGuard, AdGuard |
+| [bikrant666.com.np](https://bikrant666.com.np) | Personal site + bilingual (EN/JA) technical blog, with an admin surface and a staging environment | FastAPI, Postgres, React/Vite |
+| [dropchat](https://chat.bikrant666.com.np) | Embeddable live-chat widget — drop one script tag into any site. Accounts, AI-assisted replies, transcript search | FastAPI, Postgres, WebSocket |
+| [futsal-platform](https://futsal.bikrant666.com.np) | Booking and scheduling for a futsal venue | FastAPI, Postgres |
+| vpn-dashboard | Admin dashboard for a self-hosted WireGuard network — peer provisioning, user sync, DNS-level ad filtering | FastAPI, WireGuard, AdGuard |
 | data-collector | Scheduled scraping and aggregation service | TypeScript, Node |
 | phoenix-android-server | Headless Android automation server driven over HTTP | Python, ADB |
 | signin-relay | Chat-bot relay that hands out short-lived sign-in links | Python, Google Chat API |
@@ -25,9 +25,9 @@ Most of my work lives in private repositories, so this page is the index.
 
 **Languages** Python · TypeScript · JavaScript · PHP · SQL · Bash · PowerShell
 
-**Backend** Flask · FastAPI · Node · Postgres · SQLite · REST APIs · WebSockets
+**Backend** FastAPI · Uvicorn · Node · Postgres · SQLite · REST APIs · WebSockets
 
-**Frontend** Vanilla JS · React · Tailwind · server-rendered Jinja templates
+**Frontend** React · TypeScript · Vite · Tailwind
 
 **Infrastructure** Oracle Cloud (ARM + AMD) · Ubuntu · nginx · systemd · WireGuard ·
 Cloudflare DNS/TLS · GitHub Actions · rsync deploys · Adminer
@@ -63,7 +63,7 @@ Nearly all of it sits in private repositories, which is why this page exists as 
 I keep a bilingual technical blog at [bikrant666.com.np](https://bikrant666.com.np) —
 English and 日本語, roughly 45 posts in each. They are practical how-to guides pulled
 straight out of the work above: provisioning a VM from nothing, wiring TLS and DNS,
-and keeping a Flask app and a Postgres instance alive together on a 1 GB box.
+and keeping a FastAPI app and a Postgres instance alive together on a 1 GB box.
 
 ---
 
